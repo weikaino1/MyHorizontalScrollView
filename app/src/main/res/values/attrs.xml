@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyHorizontalScrollView">
+
+        <attr name="textSize" format="integer"/>
+        <attr name="leftPadding" format="integer"></attr>
+        <attr name="rightPadding" format="integer"></attr>
+        </declare-styleable>
+
+</resources>

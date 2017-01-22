@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wk="http://schemas.android.com/apk/res/com.example.x6.myhorizontalscrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.x6.myhorizontalscrollview.MainActivity">
+
+
+    <com.example.x6.myhorizontalscrollview.MyHorizontalScrollView
+        android:id="@+id/hol"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        wk:textSize="15"
+        wk:leftPadding="10"
+        wk:rightPadding="10"
+        ></com.example.x6.myhorizontalscrollview.MyHorizontalScrollView>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="动态改变导航浪"/>
+</RelativeLayout>
